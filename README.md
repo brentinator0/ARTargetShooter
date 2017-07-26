@@ -4,7 +4,7 @@
 
 Gameplay Demo 1             |  Gameplay Demo 2
 :-------------------------:|:-------------------------:
-![gameplay1](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay1.gif)  |  ![gameplay2](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay2.gif
+![gameplay1](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay1.gif)  |  ![gameplay2](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay2.gif)
 
 
 
