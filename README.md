@@ -4,19 +4,19 @@
 
 Gameplay Demo              |
 :-------------------------:|
-![gameplay2](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay2.gif)  |  
+![gameplay2](https://github.com/brentinator0/ARTargetShooter/blob/master/gameplay2.gif)  |  
 
 Location Indicators        |
 :-------------------------:|
-![locationIndicator](https://github.com/brentinator0/ARPlebShooter/blob/master/locationIndicator.gif)  |
+![locationIndicator](https://github.com/brentinator0/ARTargetShooter/blob/master/locationIndicator.gif)  |
 
 Dodging Targets       |
 :-------------------------:|
-![dodge](https://github.com/brentinator0/ARPlebShooter/blob/master/dodgingTargets.gif)  |
+![dodge](https://github.com/brentinator0/ARTargetShooter/blob/master/dodgingTargets.gif)  |
 
 Game Over              |
 :-------------------------:|
-![gameOver](https://github.com/brentinator0/ARPlebShooter/blob/master/gameOver.gif)  |  
+![gameOver](https://github.com/brentinator0/ARTargetShooter/blob/master/gameOver.gif)  |  
 
 
 
@@ -33,4 +33,4 @@ Game Over              |
 
 ## License
 
-[The MIT License (MIT)](https://github.com/brentinator0/ARPlebShooter/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/brentinator0/ARTargetShooter/blob/master/LICENSE)
