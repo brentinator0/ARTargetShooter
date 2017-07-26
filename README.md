@@ -10,7 +10,7 @@
 
 ## Usage
 
-## Communication
+## Contribute
 
 ## Thanks
 
