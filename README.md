@@ -1,6 +1,8 @@
-# ARPlebShooter
+# ARTargetShooter
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
+![game over](https://github.com/brentinator0/ARPlebShooter/blob/master/gameOver.gif "Game Over GIF")
 
 
 ## Requirements
