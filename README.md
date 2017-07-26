@@ -15,3 +15,5 @@
 ## Thanks
 
 ## License
+
+[The MIT License (MIT)](https://github.com/brentinator0/ARPlebShooter/blob/master/LICENSE)
