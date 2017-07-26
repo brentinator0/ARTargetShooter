@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARPlebShooter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="UYR-BL-9ic">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJP-R1-w3F">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BV1-FR-VrT" id="pOn-rK-eDO"/>
+                                    <outletCollection property="gestureRecognizers" destination="x6w-sW-ghx" appends="YES" id="4aE-SU-lYY"/>
+                                </connections>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA5-Va-mQf" userLabel="statusLabel">
+                                <rect key="frame" x="156" y="28" width="63" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="crosshair" translatesAutoresizingMaskIntoConstraints="NO" id="Obb-pr-oB9">
+                                <rect key="frame" x="162" y="309" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="OZx-jv-sxn"/>
+                                    <constraint firstAttribute="height" constant="50" id="vpr-Z2-fJ9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="←" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axw-1H-gBp" userLabel="leftDirectionIndicatorLabel">
+                                <rect key="frame" x="35" y="527.5" width="82.5" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RT-ct-1ef" userLabel="rightDirectionIndicatorLabel">
+                                <rect key="frame" x="260.5" y="527.5" width="82.5" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="bottom" secondItem="fJP-R1-w3F" secondAttribute="bottom" id="0Mt-dC-yKc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Axw-1H-gBp" secondAttribute="trailing" constant="20" symbolic="YES" id="2wD-Xm-p5f"/>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="bottom" secondItem="8RT-ct-1ef" secondAttribute="bottom" constant="20" id="6gY-pl-Cbq"/>
+                            <constraint firstItem="8RT-ct-1ef" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="UYR-BL-9ic" secondAttribute="leading" constant="20" symbolic="YES" id="CAM-Bv-rrv"/>
+                            <constraint firstItem="tA5-Va-mQf" firstAttribute="top" secondItem="WhC-w1-Gy0" secondAttribute="top" constant="8" id="Hqk-Ub-jw2"/>
+                            <constraint firstItem="Obb-pr-oB9" firstAttribute="centerY" secondItem="fJP-R1-w3F" secondAttribute="centerY" id="Jem-wh-JBn"/>
+                            <constraint firstItem="tA5-Va-mQf" firstAttribute="centerX" secondItem="WhC-w1-Gy0" secondAttribute="centerX" id="KvO-Fj-Yqz"/>
+                            <constraint firstItem="Axw-1H-gBp" firstAttribute="leading" secondItem="WhC-w1-Gy0" secondAttribute="leading" constant="35" id="O4g-SQ-AO6"/>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="top" secondItem="fJP-R1-w3F" secondAttribute="top" constant="20" id="deJ-vL-M4g"/>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="bottom" secondItem="Axw-1H-gBp" secondAttribute="bottom" constant="20" id="kJK-H8-HYl"/>
+                            <constraint firstItem="Obb-pr-oB9" firstAttribute="centerX" secondItem="fJP-R1-w3F" secondAttribute="centerX" id="kq9-SB-idi"/>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="trailing" secondItem="8RT-ct-1ef" secondAttribute="trailing" constant="32" id="mOx-Pd-6EB"/>
+                            <constraint firstItem="fJP-R1-w3F" firstAttribute="leading" secondItem="WhC-w1-Gy0" secondAttribute="leading" id="v2F-ow-7e5"/>
+                            <constraint firstItem="WhC-w1-Gy0" firstAttribute="trailing" secondItem="fJP-R1-w3F" secondAttribute="trailing" id="xqd-c9-Xvh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WhC-w1-Gy0"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftDirectionIndicator" destination="Axw-1H-gBp" id="35e-Pg-hkI"/>
+                        <outlet property="rightDirectionIndicator" destination="8RT-ct-1ef" id="fAY-nM-gFc"/>
+                        <outlet property="sceneView" destination="fJP-R1-w3F" id="ssF-v3-hBJ"/>
+                        <outlet property="statusLabel" destination="tA5-Va-mQf" id="BCk-qd-woy"/>
+                        <outlet property="tapGestureRecognizer" destination="x6w-sW-ghx" id="7Su-ob-ogG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="x6w-sW-ghx">
+                    <connections>
+                        <action selector="didTapScreen:" destination="BV1-FR-VrT" id="J3V-rO-xIu"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="crosshair" width="100" height="100"/>
+    </resources>
+</document>
