@@ -6,10 +6,18 @@ Gameplay Demo              |
 :-------------------------:|
 ![gameplay2](https://github.com/brentinator0/ARPlebShooter/blob/master/gameplay2.gif)  |  
 
+Location Indicators        |
+:-------------------------:|
+![locationIndicator](https://github.com/brentinator0/ARPlebShooter/blob/master/locationIndicator.gif)  |
 
+Dodging Targets       |
+:-------------------------:|
+![dodge](https://github.com/brentinator0/ARPlebShooter/blob/master/dodgingTargets.gif)  |
 
+Game Over              |
+:-------------------------:|
+![gameOver](https://github.com/brentinator0/ARPlebShooter/blob/master/gameOver.gif)  |  
 
-![game over](https://github.com/brentinator0/ARPlebShooter/blob/master/gameOver.gif "Game Over GIF")
 
 
 ## Requirements
