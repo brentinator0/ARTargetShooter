@@ -47,6 +47,11 @@ $ git clone https://github.com/brentinator0/ARTargetShooter.git
 
 ## Contribute
 
+* If you **find any bugs** or want to **request new features**, please open an issue!
+* If you want to **make your own modifications**, please submit a pull request!
+
+Additionally, I'm very open to any constructive criticism, especially when it comes to Swift best practices! The purpose of this project is to help me learn, so any advice is welcome :)
+
 ## Thanks
 
 ARTargetShooter was inspired by raywenderlich.com's ['Geometry Fighter'](https://www.raywenderlich.com/128668/scene-kit-tutorial-with-swift-part-1) series and the [ARShooter](https://github.com/farice/ARShooter) project.
